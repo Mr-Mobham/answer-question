@@ -5,6 +5,15 @@ export const addQuestion = (data) =>{
     }
 };
 
+export const showModalComment = (data) =>{
+    return {
+        type    : 'SHOW-MODALCOMMENT',
+        payload : data,
+    }
+};
+
+
+
 
 
 

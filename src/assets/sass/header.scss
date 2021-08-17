@@ -1,0 +1,64 @@
+.header{
+    width:100%;
+    height: 68px;
+    background: $white;
+    box-shadow: 0px 3px 50px -1px rgba(50, 50, 71, 0.05);
+    padding-right: 56px;
+    padding-left: 56px;
+    display: flex;
+    align-items: flex-start;
+}
+.header__right{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__left{
+    flex-grow: 1;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 13px;
+}
+.header__title{
+    font-size:24px;
+    font-weight: 600;
+}
+.header__btn-item{
+    background:$similar;
+    color:$white;
+    height:36px;
+    width:126px;
+    border:none;
+    border-radius: 6px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.header__btn-title{
+    font-size:12px;
+    font-family: 'Yekan';
+    font-weight: 300;
+    margin-right: 8px;
+}
+.header__avatar-img{
+    width:44px;
+    height:44px;
+    margin-left: 12px;
+}
+.header__btn{
+    margin-left: 40px;
+    margin-top:4px;
+}
+.header__left-main{
+    display: flex;
+}
+.header__username-title{
+    font-size:14px;
+    color: #454545;
+}
+.header__avatar-item{
+    display:flex;
+    align-items: center;
+}

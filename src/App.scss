@@ -1,0 +1,17 @@
+@import "assets/sass/_variables";
+@import "assets/sass/_fonts";
+@import "assets/sass/questions";
+@import "assets/sass/header";
+@import "assets/sass/modal";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yekan";
+
+}
+body{
+  background:#f4f5f6;
+  direction: rtl;
+}
