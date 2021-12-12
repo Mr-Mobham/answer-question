@@ -13,7 +13,7 @@ class App extends Component {
         <div>
           <Header></Header>
           <Switch>
-               <Route exact path='/' component={Questions} />
+               <Route exact path='' component={Questions} />
                <Route  path='/question/:id' component={SingleQuestion} />
 
           </Switch>
