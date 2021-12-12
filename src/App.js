@@ -13,8 +13,8 @@ class App extends Component {
         <div>
           <Header></Header>
           <Switch>
-               <Route exact path='/' component={Questions} />
-               <Route  path='/question/:id' component={SingleQuestion} />
+               <Route exact path='/answer-question' component={Questions} />
+               <Route  path='/answer-question/question/:id' component={SingleQuestion} />
 
           </Switch>
         </div>
